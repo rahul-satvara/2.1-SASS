@@ -1,0 +1,10 @@
+first install ruby
+gem install sass
+gem source -a http://rubygems.org/
+gem install sass -v 3.3.14 --source http://rubygems.org/
+gem install rb-inotify
+C:\>SET SSL_CERT_FILE=C:\Ruby200\cacert.pem
+
+
+sass --watch style.scss
+
